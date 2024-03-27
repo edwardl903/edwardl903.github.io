@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edward Lai | Programmer </title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Alfa Slab One font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700;800;900&display=swap">
+    
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+
+    <!-- Animation library styles -->    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Iconify Icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBYB5MK388"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EBYB5MK388');
+    </script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div id="particles-js">
+        <nav id="nav" data-aos="fade-in">
+          <div class="container nav-container">
+            <a href="index.html" id="logo">
+              <!-- <img src="img/logo.png" alt="logo"> -->
+            </a>
+            <ul class="hide-for-mobile nav-links flex">
+              <li>
+                <a href="#projects" class="link"
+                  ><i class="fas fa-cog"></i> Projects</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="link"
+                  ><i class="fas fa-tools"></i> Skills</a
+                >
+              </li>
+              <li>
+                <a href="#education" class="link"><i class="fas fa-user-graduate"></i> Education</a
+                >
+              </li>
+              <!-- <li>
+                <a href="#contact" class="link"
+                  ><i class="fas fa-envelope"></i> Contact</a
+                >
+              </li> -->
+              <li>
+                <a href="#hobbies" class="link"><i class="fas fa-heart"></i> Hobbies</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="mobile-menu hide-for-desktop">
+            <div class="container">
+              <div class="mobile-menu-links">
+                <ul class="flex">
+                  <li>
+                    <a href="#projects" class="link blue-hover"
+                      >Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#skills" class="link blue-hover"
+                      >Skills</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#education" class="link blue-hover"
+                      >Education</a
+                    >
+                  </li>
+                  <!-- <li>
+                    <a href="#contact" class="link blue-hover"
+                      >Contact</a
+                    >
+                  </li> -->
+                  <li>
+                    <a href="#hobbies" class="link blue-hover">Hobbies</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+              
+            </div>
+          </div>
+        </nav>
+
+        <!-- HERO -->
+        <div class="hero">
+          <div data-aos="fade-up">
+            <!-- Inserted image tag for Edward Lai's picture -->
+            <div style="text-align: center;"> <!-- Added inline style for centering -->
+              <!-- Image tag for Edward Lai's picture -->
+              <img src="img/ed.png" alt="Edward Lai" style="width: 250px; height: 250px; margin-bottom: -20px; border-radius: 50%; object-fit: cover; filter: grayscale(40%);">
+            </div>            <h1 class="h1">
+              
+              Hi, I'm <span class="main-font text-blue">Edward</span>
+            </h1>
+            <p class="student" id="student">
+              I'm currently a full-time student at <a href="https://www.tufts.edu/" class="blue-link-underline" target="_blank">Tufts University</a>, double-majoring in Computer Science and Human Factors Engineering.
+            </p>
+            <div class="hero-btns">
+              <a href="#projects" class="btn-blue"><i class="fas fa-code"></i> Projects</a>
+              <a href="https://github.com/edwardl903" class="btn-blue-outline mx-1" id="projects-btn"
+                target="_blank"><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- SOCIAL LINKS -->
+        <div class="socials" data-aos="fade-in"> 
+          <ul>
+            <li class="bg-blue"><a href="https://www.linkedin.com/in/edward-lai-504b6328b/"
+              target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
+            ></a></li>
+            <li class="bg-dark-grey"> <a href="https://github.com/edwardl903"
+              target="_blank"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i
+            ></a></li>
+            <li class="bg-white"><a class="text-dark-grey" href="mailto:edward.lai@tufts.edu"><span class="socials-text">Email</span><i class="fas fa-envelope fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="seperator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+
+    </header>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">My <span class="text-blue main-font">Experience</span></h2>
+    <div class="experience">
+      <h3>Tufts University Innovation, Design, Engineering, and Analysis Lab</h3>
+      <p class="title">Research Assistant | Medford, MA</p>
+      <p class="date">Aug. 2023 – December 2023</p>
+      <ul>
+        <li>Contributed to the "Owl Head" project, a multidisciplinary initiative focused on extending human vision through VR technology.</li>
+        <li>Collaborated with programmers, psychologists, and engineers in conducting usability testings to provide quantitative research findings to enhance project development.</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h3>Tufts University Human Computer Interaction Lab</h3>
+      <p class="title">Research Assistant | Medford, MA</p>
+      <p class="date">May. 2023 – Present</p>
+      <ul>
+        <li>Conducted EEG-based research on human cognition and investigated the neural correlation between strategic thinking and decision-making during cognitive activities using the Muse device.</li>
+        <li>Assisted in experimental design, data collection, and statistical analysis using RStudio.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="favorite-classes" class="classes-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">Some of my favorite classes I've taken at Tufts University:</h2>
+    <ul>
+      <li>Machine Structure & Assembly-Language (CS40)</li>
+      <li>Algorithms (CS160), Data Structures (CS15), Computation Theory (CS170)</li>
+      <li>Web Programming (CS120), Applied Behavioral Statistics for Engineering (ENP164)</li>
+      <li>Engineering Forensics (ENP112), Discrete Mathematics (CS61)</li>
+      <li>Human Machine System Design (ENP164)</li>
+    </ul>
+  </div>
+</section>
+    <!-- PROJECTS -->
+    <!-- PROJECTS -->
+<!-- Engineering Projects -->
+
+<!-- Coding Projects
+<section id="asdasdprojects" class="projects-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">Some of my favorite classes I've taken at Tufts University:</h2>
+      <ul>
+        <li>Machine Structure & Assembly-Language</li>
+        <li>Algorithms, Data Structures, Computation Theory</li>
+        <li>Web Programming, Behavioral Statistic Analysis, Engineering Forensics</li>
+        <li>Discrete Mathematics, and Human Machine System Design</li>
+      </ul>
+  </div>
+</section> -->
+
+
+<section id="projects" class="projects-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">My Engineering <span class="text-blue main-font">Projects</span></h2>
+    <div class="projects-grid">
+        <div class="project" data-aos="zoom-in">
+          <img src="img/me30_robot.jpg" alt="Autonomous Robot Project" class="project-img">
+          <h4>Autonomous Robot Development using Raspberry Pi</h4>
+          <p>Engineered an autonomous robot leveraging Raspberry Pi and Python for collaborative tasks. Developed a web interface for real-time control with dynamic speed adjustments, enabling enhanced autonomy and teamwork in navigating and manipulating objects.</p>
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+          <img src="img/me40_wine.png" alt="Wine Opener CAD Model" class="project-img">
+          <h4>Wine Opener CAD Modeling in SolidWorks</h4>
+          <p>Designed detailed CAD models of a wine opener using SolidWorks, including internal mechanisms, exterior aesthetics, and exploded views. The project involved reverse engineering and 3D modeling of a popular product, showcasing precision and design capabilities.</p>
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+          <img src="img/bowl.png" alt="Tilted Bowl Design" class="project-img">
+          <h4>Custom Tilted Bowl Design for Assistive Kitchenware</h4>
+          <p>Collaborated with a client with cerebral palsy to design and prototype an assistive kitchenware product. The project entailed laser-cutting and mechanical design of a bowl with a lever-activated tilting mechanism, emphasizing user-centered design and engineering solutions.</p>
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+          <img src="img/hair.png" alt="Hair Dryer CAD Model" class="project-img">
+          <h4>Hair Dryer Design and CAD Modeling</h4>
+          <p>Utilized SolidWorks to create a comprehensive CAD model of a hair dryer, exploring various design features and functionalities. The project focused on ergonomics, aesthetics, and manufacturing feasibility, reflecting advanced CAD skills.</p>
+        </div>
+
+        <div class="project" data-aos="zoom-in">
+          <img src="img/energy.png" alt="Energy Website Frontend Development" class="project-img">
+          <h4>Energy Website Frontend Development</h4>
+          <p>Lead the frontend development of an energy sector website, implementing responsive design, interactive features, and user-friendly navigation. Employed HTML, CSS, JavaScript, and frameworks to deliver a seamless web experience, demonstrating proficiency in web development technologies.</p>
+        </div>
+  </div>
+</section>
+
+<!-- Coding Projects -->
+<section id="coding-projects" class="projects-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">My Coding <span class="text-blue main-font">Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project" data-aos="zoom-in">
+          <img src="img/chess.png" alt="Project Name" class="project-img">
+          <h4>Front-End Development for Tufts University Chess Club Website</h4>
+          <p>Developed the front-end for the Tufts University Chess Club website, enhancing community engagement with features like a gallery of events, and interactive pages for resources and community interaction, powered by Chess.com APIs. Integrated MongoDB for efficient membership management. This project showcases a fusion of skills in web development, API integration, and database management, significantly boosting the club's online interaction and accessibility.</p>
+        </div>
+      <div class="project" data-aos="zoom-in">
+        <img src="img/compressor.png" alt="Project Name" class="project-img">
+        <h4>Advanced Image Compression and Decompression Tool</h4>
+        <p>Developed a tool for lossy image compression and decompression of PPM images in C, focusing on efficient bit packing and unpacking strategies, and floating-point arithmetic. This project emphasized low-level programming skills and deep understanding of data compression algorithms.</p>
+    </div>
+    <div class="project" data-aos="zoom-in">
+      <img src="img/chesspng" alt="GERP Project" class="project-img">
+      <h4>GERP: A Case-Insensitive File Indexing and Search Tool</h4>
+      <p>Created "GERP," a C++ program for indexing files by words and facilitating case-insensitive searches, akin to GREP but with enhancements. Utilized a trie for storing words alongside arrays for file and line metadata, demonstrating proficiency in data structures, algorithm optimization, and system programming.</p>
+  </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Other Projects -->
+<section id="other-projects" class="projects-section">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font">My Other <span class="text-blue main-font">Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project" data-aos="zoom-in">
+        <img src="img/night_knigh.png" alt="Project Name" class="project-img">
+        <h4>Night Knight: Protective Robot Assistant</h4>
+        <p>Developed "Night Knight," a prototype app linked to a robotic companion designed to provide both protection and companionship for children and the elderly. This innovative project integrates advanced robotics, user-friendly application design, and features aimed at ensuring safety and offering social interaction. The robot's capabilities include environment monitoring, emergency response, and interactive activities to support its users.</p>
+      </div>
+      <div class="project" data-aos="zoom-in">
+        <img src="img/instant.png" alt="Project Name" class="project-img">
+        <h4>Instant Itinerary: Trip Planning Solution</h4>
+        <p>Designed "Instant Itinerary," a comprehensive trip planning app prototype crafted in Figma. The app assists users in customizing their travel plans based on budget, location, and interests. It employs an intuitive UI/UX design to simplify the planning process, offering personalized recommendations and streamlining trip organization. The project demonstrates a blend of design acumen and user-centered functionality in travel technology.</p>
+      </div>
+      <div class="project" data-aos="zoom-in">
+        <img src="img/energy.png" alt="Project Name" class="project-img">
+        <h4>Energy Conservation Website</h4>
+        <p>Collaborated with Professor Gareth Wyn Jones to develop an informational website focused on energy conservation, waste management, and climate change. The site features a repository of academic journals, lectures, and resources aimed at educating users on sustainable energy use. Utilizing modern web development practices, the project emphasizes interactive learning experiences and user engagement to promote awareness and action on environmental issues.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+     <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="seperator-skew-top">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container" data-aos="fade-in"> 
+        <h2 class="text-white main-font">Technical <span class="text-blue main-font">Skills</span></h2>
+        <ul class="skills-icons">
+          
+          <li><span class="iconify" data-icon="devicon:rstudio" data-inline="false" data-width="90px" data-height="90px"></span><span>RStudio</span></li>
+          <li><span class="iconify" data-icon="logos:figma" data-inline="false" data-width="90px" data-height="90px"></span><span>Figma</span></li>
+          <li><span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span><span>JavaScript</span></li>
+          <li><span class="iconify" data-icon="logos:react" data-inline="false" data-width="90px" data-height="90px"></span><span>React</span></li>
+          <li><span class="iconify" data-icon="logos:nodejs-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>Node.js</span></li>
+          <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="90px" data-height="90px"></span><span>Python</span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="90px" data-height="90px"></span><span>HTML</span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="90px" data-height="90px"></span><span>CSS</span></li>
+          <li><span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>Git</span></li>
+          <li><span class="iconify" data-icon="logos:mysql" data-inline="false" data-width="90px" data-height="90px"></span><span>MySQL</span></li>
+          <li><span class="iconify" data-icon="devicon:matlab" data-inline="false" data-width="90px" data-height="90px"></span><span>MatLab</span></li>
+
+        </ul>
+      </div>
+
+      <div class="seperator-skew-bottom">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+     <!-- Education -->
+     <section id="education" class="education">
+      <div class="container">
+        <h2 class="main-font" data-aos="fade-in">My <span class="text-blue main-font">Education</span></h2>
+
+        <div class="education-card" data-aos="zoom-in">
+            <div class="education-card-column">
+              <div class="card-column-image">
+                <img src="/img/qut-Logo.png" alt="">
+              </div>
+
+              <div class="card-column-large">
+                <h4 class="education-year">2021 - 2025</h4>
+                <h4>Tufts University - Bachelor of Science</h4>
+                <p>GPA 3.64/4</p>
+                <ul>
+                  <li>Major in Computer Science</li>
+                  <li>Major in Human Factors Engineering</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+<!-- HOBBIES -->
+<section id="hobbies" class="hobbies">
+  <div class="container" data-aos="fade-in">
+    <h2 class="main-font" data-aos="fade-in">My <span class="text-blue main-font">Hobbies</span></h2>
+    <div class="hobbies-grid">
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-chess fa-3x"></i>
+        <h4>Chess</h4>
+        <p>Chess has been a passion of mine, and I'm proud to be a 2000-rated player on Chess.com! Leading the Tufts University Chess Competitive A Team and starting the Chess Club as president has been an amazing journey.</p>
+      </div>
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-volleyball-ball fa-3x"></i>
+        <h4>Volleyball</h4>
+        <p>I've been playing volleyball for over 10 years. From being captain in high school to playing as a defensive specialist for Tufts University's Men's Club Team, it's been an incredible ride.</p>
+      </div>
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-square fa-3x"></i> <!-- Icon for Squash (customize as needed) -->
+        <h4>Squash</h4>
+        <p>I've recently fallen addicted with squash. Playing several times a week has been exhilarating, and I'm always eager to learn and improve my game.</p>
+      </div>
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-music fa-3x"></i>
+        <!-- <a href="piano-videos.html" class="hobby" data-aos="zoom-in"> -->
+        <h4>Piano</h4>
+        <p>Playing the piano has been a part of my life for the past 10 years. Whether it's composing new pieces or jamming with friends, music is my go-to for creative expression.</p>
+        </a>
+      </div>
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-skating fa-3x"></i>
+        <h4>Skateboarding</h4>
+        <p>Skateboarding is something I picked up during 2020. I am a big fan of longboarding as a means of transformation but not such a big fan of falling.</p>
+      </div>
+
+      <div class="hobby" data-aos="zoom-in">
+        <i class="fas fa-hiking fa-3x"></i>
+        <h4>Rock Climbing</h4>
+        <p>I started rock-climbing recently and have been going weekly. I am a big fan of the Central Rock Gyms here in Massachusetts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Back to top button in corner -->
+    <a id="backToTopBtn" class="btn-blue">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Particles.js for hero section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <script>
+      particlesJS.load('particles-js', './particles.json', function(){
+        console.log("particles.json loaded...")
+      })
+
+      particlesJS.load('skills', './particles.json', function(){
+        console.log("particles.json loaded...")
+      })
+
+      particlesJS.load('footer', './particles.json', function(){
+        console.log("particles.json loaded...")
+      })
+
+      particlesJS.load()
+    </script>
+
+    <script defer src="js/app.js"></script>
+
+    <!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <p>I'm Edward Lai, a Computer Science and Human Factors Engineering student passionate about technology and its potential to improve lives. Find out more about my projects and interests throughout this site.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Information</h4>
+        <ul>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:edward.lai@tufts.edu">edward.lai@tufts.edu | 978-809-4329</a></li>
+          <li><i class="fas fa-map-marker-alt"></i> Tufts University, MA</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/edward-lai-504b6328b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/edwardl903" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Edward Lai | All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
+
